@@ -12,7 +12,7 @@ Press Submit.
 
 Find your username under **Additional Accounts**. 
 
-![Image](Username.png)
+![Image](Screenshots/Username.png)
 
 **Changing Password**
 
@@ -25,4 +25,4 @@ Go to the [Visual Studio Code website](https://code.visualstudio.com/Download) a
 
 When you open VS Code, your window should look like this 
 
-![Image](../Screenshots/VSCodeHome.png)
+![Image](Screenshots/VSCodeHome.png)

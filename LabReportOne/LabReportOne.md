@@ -8,7 +8,7 @@ Go to [https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.
 Enter your Username and Student ID (PID) in the account lookup section. 
 Press Submit. 
 
-![Image](/Screenshots/AccountLookup.jpg)
+![Image](Screenshots/AccountLookup.jpg)
 
 Find your username under **Additional Accounts**. 
 

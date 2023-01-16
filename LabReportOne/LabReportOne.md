@@ -15,6 +15,7 @@ Find your username under **Additional Accounts**.
 ![Image](../Screenshots/Username.png)
 
 **Changing Password**
+
 To Change your password, Click on 'change your password' and follow the on screen instuctions carefully. 
 
 

@@ -12,7 +12,7 @@ Press Submit.
 
 Find your username under **Additional Accounts**. 
 
-![Image](LabReportOne/Screenshots/Username.png)
+![Image](../Screenshots/Username.png)
 
 **Changing Password**
 To Change your password, Click on 'change your password' and follow the on screen instuctions carefully. 
@@ -24,4 +24,4 @@ Go to the [Visual Studio Code website](https://code.visualstudio.com/Download) a
 
 When you open VS Code, your window should look like this 
 
-![Image](http://url/a.png)
+![Image](../Screenshots/VSCodeHome.png)

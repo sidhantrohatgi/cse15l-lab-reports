@@ -12,7 +12,7 @@ Press Submit.
 
 Find your username under **Additional Accounts**. 
 
-![Image](../Screenshots/Username.png)
+![Image](Username.png)
 
 **Changing Password**
 

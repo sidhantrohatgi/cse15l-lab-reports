@@ -8,11 +8,11 @@ Go to [https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.
 Enter your Username and Student ID (PID) in the account lookup section. 
 Press Submit. 
 
-![Image](http://url/a.png)
+![Image](LabReportOne/Screenshots/AccountLookup.jpg)
 
 Find your username under **Additional Accounts**. 
 
-![Image](http://url/a.png)
+![Image](LabReportOne/Screenshots/Username.png)
 
 **Changing Password**
 To Change your password, Click on 'change your password' and follow the on screen instuctions carefully. 

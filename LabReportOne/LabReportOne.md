@@ -43,5 +43,15 @@ Paste the following Command in the terminal and press enter.
 
 ![Image](Screenshots/command.png)
 
+If you are logging in for the first time, you will get the following message: 
 
+![Image](Screenshots/authorize.png)
 
+Type `yes` and press enter. 
+Enter your password and press enter
+
+![Image](Screenshots/login.png)
+
+Congratulations, you are now logged into the server!
+
+## Step 4 - Trying Commands

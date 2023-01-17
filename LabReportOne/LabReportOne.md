@@ -51,10 +51,33 @@ Type `yes` and press enter.
 
 You will then be prompted to enter your password.
 
-Enter your password and press enter. (The password might not show up
+Enter your password and press enter. (Don't worry if the password does not appear on screen as you type it!)
 
 ![Image](Screenshots/login.png)
 
 Congratulations, you are now logged into the server!
 
-## Step 4 - Trying Commands
+**Logging Out:**
+To log out of the remote server, you can use either of the following options
+1. (`Ctrl` + `D`) or (`Cmd` + `D`)
+2. `exit`
+
+
+## Step 4 - Trying Some Commands
+
+Try running some unix commands!
+
+Some commands you can try:
+1. `pwd`
+2. `cd ~`
+3. `cd ..`
+4. `ls`
+5. `ls -lat`
+6. `cat`
+7. `cat > filename`
+8. `touch`
+9. `nano`
+10. `echo`
+
+![Image](Screenshots/tryingcommands.png)
+

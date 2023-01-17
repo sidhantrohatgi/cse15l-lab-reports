@@ -79,5 +79,5 @@ Some commands you can try:
 9. `nano`
 10. `echo`
 
-![Image](Screenshots/tryingcommands.png)
+![Image](Screenshots/tryingcommands.jpg)
 

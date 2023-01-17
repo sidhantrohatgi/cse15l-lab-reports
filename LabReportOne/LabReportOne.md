@@ -48,7 +48,10 @@ If you are logging in for the first time, you will get the following message:
 ![Image](Screenshots/authorize.png)
 
 Type `yes` and press enter. 
-Enter your password and press enter
+
+You will then be prompted to enter your password.
+
+Enter your password and press enter. (The password might not show up
 
 ![Image](Screenshots/login.png)
 

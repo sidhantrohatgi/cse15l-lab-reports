@@ -21,8 +21,27 @@ To Change your password, Click on 'change your password' and follow the on scree
 
 ## Step 2 - Installing Visual Studio Code
 
-Go to the [Visual Studio Code website](https://code.visualstudio.com/Download) and download and install Visual Studio Code onto your computer. 
+Go to the [Visual Studio Code Website](https://code.visualstudio.com/Download) and download and install Visual Studio Code onto your computer. 
 
-When you open VS Code, your window should look like this 
+When you open VS Code, your window should look like this:
 
 ![Image](Screenshots/VSCodeHome.png)
+
+## Step 3 - Remotely Connecting
+
+**Additional Step for Windows Users:** 
+1. Download [Git for Windows](https://gitforwindows.org)
+2. Open Visual Studio Code and press `Ctrl` + \` to open the terminal.
+3. Press `Ctrl` + `Shift` + `P` to open the command palette.
+4. Type `- Select Default Profile`. 
+5. Select the Git Bash option and click on the + in the terminal window. 
+6. The new terminal will now be a Git Bash terminal. 
+
+Open a new terminal window in VSCode (`Ctrl` + `Shift` + \`) or (`control` + `Shift` + \`) 
+Paste the following Command in the terminal and press enter. 
+`ssh <your_username_here>@ieng6.ucsd.edu`
+
+![Image](Screenshots/command.png)
+
+
+

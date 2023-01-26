@@ -58,7 +58,7 @@ Enter your password and press enter. (Don't worry if the password does not appea
 Congratulations, you are now logged into the server!
 
 **Logging Out:**
-To log out of the remote server, you can use either of the following options
+To log out of the remote server, you can use either of the following options:
 1. (`Ctrl` + `D`) or (`Cmd` + `D`)
 2. `exit`
 
@@ -68,16 +68,16 @@ To log out of the remote server, you can use either of the following options
 Try running some unix commands!
 
 Some commands you can try:
-1. `pwd`
-2. `cd ~`
-3. `cd ..`
-4. `ls`
-5. `ls -lat`
-6. `cat`
-7. `cat > filename`
-8. `touch`
-9. `nano`
-10. `echo`
+1. `pwd` - prints the current working directory
+2. `cd ~` - makes home the current working directory
+3. `cd ..` - goes back one directory
+4. `ls` - lists files and subdirectories in the current directory 
+5. `ls -lat`- lists files and subdirectories, including hidden files in the current directory with more info
+6. `cat` - command that reads files sequentially and writes them to standard output
+7. `cat > filename` - creates file
+8. `touch` - command to used to create, change and modify timestamps of a file
+9. `nano` - command to edit text in a file
+10. `echo` - command that outputs the strings that are passed to it as arguments
 
 ![Image](Screenshots/tryingcommands.jpg)
 

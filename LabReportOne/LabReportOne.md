@@ -72,7 +72,7 @@ Some commands you can try:
 2. `cd ~` - makes home the current working directory
 3. `cd ..` - goes back one directory
 4. `ls` - lists files and subdirectories in the current directory 
-5. `ls -lat`- lists files and subdirectories, including hidden files in the current directory with more info
+5. `ls -lat` - lists files and subdirectories, including hidden files in the current directory with more info
 6. `cat` - command that reads files sequentially and writes them to standard output
 7. `cat > filename` - creates file
 8. `touch` - command to used to create, change and modify timestamps of a file

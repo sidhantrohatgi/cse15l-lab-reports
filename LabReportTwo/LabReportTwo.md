@@ -1,4 +1,4 @@
-# **CSE 15L Lab Report Two - Servers and Bugs
+# **CSE 15L Lab Report Two - Servers and Bugs**
 
 ## Part 1 - Making a Web Server
 

@@ -108,7 +108,7 @@ JUnit Test Results (For Fixed Code):
 
 ## Part 3 - Learnings from CSE 15L Lab
 
-Over the past 3 weeks, I:
+My learnings over the past 3 weeks:
 - Familiarised myself with UNIX commands. 
 - Learnt how to use the command line.  
 - Learnt how to use git and Github to collaborate on projects. 

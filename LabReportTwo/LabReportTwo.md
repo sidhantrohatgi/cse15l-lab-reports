@@ -38,8 +38,8 @@ class StringServer {
 
 The server is started using the following commands:
 ```
-miturohatgi$ javac Server. java StringServer.java
-miturohatgi$ java StringServer 7150
+user$ javac Server. java StringServer.java
+user$ java StringServer 7150
 ```
 When we start the server, the main method is called with the port as the command line argument. If the port is invalid or is not provided, an error message is displayed accordingly. 
 

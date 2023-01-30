@@ -25,7 +25,7 @@ class Handler implements URLHandler {
 class StringServer {
     public static void main(String[] args) throws IOException {
         if(args.length == 0){
-            System.out.println("ERROR - Missing port number! Try any number between 1024 to 49151");
+            System.out.println("ERROR - Missing port number! Try any number between 1024 and 49151");
             return;
         }
 
@@ -38,7 +38,7 @@ class StringServer {
 
 The server is started using the following commands:
 ```
-user$ javac Server. java StringServer.java
+user$ javac Server.java StringServer.java
 user$ java StringServer 7150
 ```
 When we start the server, the main method is called with the port as the command line argument. If the port is invalid or is not provided, an error message is displayed accordingly. 
@@ -48,7 +48,7 @@ When we enter the first URL, a request is sent to the `handleRequest` method. Th
 ![Image](Screenshots/ServerSCOne.png)
 
 
-When the second URL is entered, the `handleRequest` recieves a request again. The query, followed by a newline character is concatenated to a string variable `outputString`, and the new output is displayed on screen. 
+When the second URL is entered, the `handleRequest` method recieves a request again. The query, followed by a newline character is concatenated to a string variable `outputString`, and the new output is displayed on screen. This is repeated for every new query.
 
 ![Image](Screenshots/ServerSCTwo.png)
 

@@ -44,10 +44,12 @@ user$ java StringServer 7150
 When we start the server, the main method is called with the port as the command line argument. If the port is invalid or is not provided, an error message is displayed accordingly. 
 
 When we enter the first URL, a request is sent to the `handleRequest` method. The method checks if the path of the URL is `/add-message` and displays the query, omitting the fist two characters, `s=` or displays an error message accordingly.
+
 ![Image](Screenshots/ServerSCOne.png)
 
 
 When the second URL is entered, the `handleRequest` recieves a request again. The query, followed by a newline character is concatenated to a string variable `outputString`, and the new output is displayed on screen. 
+
 ![Image](Screenshots/ServerSCTwo.png)
 
 ## Part 2 - Bugs
@@ -84,6 +86,7 @@ Failure Inducing JUnit Test:
 Error Symptom: `arrays first differed at element [0]; expected:[3] but was:[0] at ArrayTests.testReversedExpectedFailure(ArrayTests.java:8)`
 
 JUnit Test Results (for Buggy Code):
+
 ![Image](Screenshots/JUnit.png)
 
 Fixed Code for the Reversed method:
@@ -100,6 +103,7 @@ Fixed Code for the Reversed method:
 In the fixed code, the return value is the newArray instead of the array passed as the parameter. Additionally, thw arrays are switched while assigning values. 
 
 JUnit Test Results (For Fixed Code):
+
 ![Image](Screenshots/FixedJUnit.png)
 
 ## Part 3 - Learnings from CSE 15L Lab

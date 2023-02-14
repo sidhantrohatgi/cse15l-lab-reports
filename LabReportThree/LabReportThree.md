@@ -1,12 +1,8 @@
 # **CSE 15L Lab Report Three - Researching Commands**
 
-Sources Used: `man find`, ChatGPT
-
-ChatGPT prompt: "bash find command options"
-
 # Command: `find`
 
-## 1. `find -type`: 
+## 1. `find -type`:
 This option lets you search for specific types of files. The options are 'f' for regular files, 'd' for directories, and 'l' for symbolic links.
 
 Examples: 
@@ -99,3 +95,48 @@ This command does not print out anything becaus ethere are no files with size 10
 
 ## 4. `find -mtime` and `find -mmin`:
 These options let you search for files modified within a specified time period. -mtime searches by days and -mmin searches by minutes.
+
+Examples: 
+
+```
+#Example 1:
+
+$ find written_2/non-fiction/OUP/Abernathy -mmin 5
+written_2/non-fiction/OUP/Abernathy
+written_2/non-fiction/OUP/Abernathy/ch2.txt
+written_2/non-fiction/OUP/Abernathy/ch3.txt
+written_2/non-fiction/OUP/Abernathy/ch1.txt
+written_2/non-fiction/OUP/Abernathy/ch7.txt
+written_2/non-fiction/OUP/Abernathy/ch6.txt
+written_2/non-fiction/OUP/Abernathy/ch8.txt
+written_2/non-fiction/OUP/Abernathy/ch9.txt
+written_2/non-fiction/OUP/Abernathy/ch15.txt
+written_2/non-fiction/OUP/Abernathy/ch14.txt
+```
+
+This command returns all files in the `written_2/non-fiction/OUP/Abernathy` directory which were modified exactly 5 minutes ago. 
+
+```
+#Example 2:
+
+$ find written_2/non-fiction/OUP/Abernathy -mtime 0
+written_2/non-fiction/OUP/Abernathy
+written_2/non-fiction/OUP/Abernathy/ch2.txt
+written_2/non-fiction/OUP/Abernathy/ch3.txt
+written_2/non-fiction/OUP/Abernathy/ch1.txt
+written_2/non-fiction/OUP/Abernathy/ch7.txt
+written_2/non-fiction/OUP/Abernathy/ch6.txt
+written_2/non-fiction/OUP/Abernathy/ch8.txt
+written_2/non-fiction/OUP/Abernathy/ch9.txt
+written_2/non-fiction/OUP/Abernathy/ch15.txt
+written_2/non-fiction/OUP/Abernathy/ch14.txt
+```
+
+This command returns all files in the `written_2/non-fiction/OUP/Abernathy` directory which were modified exactly 0 days ago. 
+
+## Sources Used: `man find`, ChatGPT
+
+ChatGPT prompts: 
+1. "bash find command options"
+2. "find -mmin"
+3. "find -mtime"

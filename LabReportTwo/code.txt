@@ -1,0 +1,38 @@
+Code for failure inducing tester:
+
+// Copy from tester
+
+
+Code for NON Failure inducing tester (FOR BROKEN CODE):
+
+// copy from tester
+
+
+Code for failure inducing method:
+
+  // Returns a *new* array with all the elements of the input array in reversed
+  // order
+  static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+  }
+
+
+
+
+Code for Fixed Method:
+
+  // Fixed Reversed Method
+  static int[] reversedFixed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      newArray[i] = arr[arr.length - i - 1];
+    }
+    return newArray;
+  }
+
+
+Code for 

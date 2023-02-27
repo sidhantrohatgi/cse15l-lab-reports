@@ -104,4 +104,6 @@ Push Command: ```git push```
 
 ## Checking changes on Github:
 
+I opened the repository in my web browser to confirm the commit.
+
 ![Image](Screenshots/changesongithub.png)

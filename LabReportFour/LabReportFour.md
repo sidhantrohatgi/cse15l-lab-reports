@@ -26,7 +26,7 @@ First, I changed my current directory to the cloned repository. To do this, I ty
 
 ![Image](Screenshots/cdRepoOne.png)
 
-Then I pressed ```<enter>``` to auto-complete the command. 
+Then I pressed ```<tab>``` to auto-complete the command. 
 
 ![Image](Screenshots/cdRepoTwo.png)
 

@@ -72,6 +72,6 @@ Command to run the bash script:
 
 
 
-# Confirmation of Changes on Github:
+# Confirmation of Committed Changes on Github:
 
 ![Image](Screenshots/confirm.png)
